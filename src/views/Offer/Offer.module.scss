@@ -1,0 +1,243 @@
+.offerWrapper {
+  height: 1200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/offer.png");
+}
+.offerWrapperLine {
+  height: 100%;
+  width: 100%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/line_2.png");
+  background-position: 107% 4%;
+  background-size: 56%;
+}
+
+.offerWrapperLineTwo {
+  height: 100%;
+  width: 100%;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/line_3.png");
+  background-position: 2% 68%;
+  grid-template-columns: 86%;
+  display: grid;
+  justify-content: center;
+  margin-top: -306px;
+}
+.offerBox {
+  display: grid;
+  grid-template-areas: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.box {
+  align-self: center;
+}
+
+.aboutText {
+  margin-top: -60px;
+}
+.aboutName {
+  font-family: "Gelasio", serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  margin-left: 184px;
+  padding-top: 170px;
+}
+.aboutSurname {
+  font-family: "Gelasio", serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #a6263e;
+  margin-left: 80px;
+}
+
+.aboutParagraph {
+  font-family: "Montserrat", serif;
+
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+}
+.homeParagraph {
+  display: grid;
+  grid-template-columns: 42%;
+  margin-left: 165px;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 11px;
+  color: #fff;
+  line-height: 26px;
+}
+
+@media (max-width: 1920px) {
+  .offerWrapperLineTwo {
+    background-position: 19% 66%;
+    background-size: 97%;
+  }
+  .offerWrapper {
+    height: 1500px;
+  }
+  .offerWrapperLine {
+    background-position: 100% 15%;
+    background-size: 72%;
+  }
+  .aboutName {
+    margin-left: 220px;
+  }
+  .homeParagraph {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 1625px) {
+  .offerWrapper {
+    height: 1167px;
+  }
+  .offerWrapperLine {
+    background-position: 100% 19%;
+  }
+
+  .offerWrapperLineTwo {
+    background-position: -14% 73%;
+  }
+}
+@media (max-width: 1400px) {
+  .offerWrapperLine {
+    background-position: 100% 19%;
+  }
+  .offerWrapper {
+    height: 1100px;
+  }
+  .offerWrapperLineTwo {
+    background-position: 0% 66%;
+  }
+}
+@media (max-width: 1300px) {
+  .offerWrapperLine {
+    height: 1054px;
+  }
+  .offerWrapperLineTwo {
+    background-position: 0% 68%;
+  }
+  .aboutName {
+    padding-top: 36px;
+  }
+}
+@media (max-width: 1200px) {
+  .homeParagraph {
+    font-size: 12px;
+  }
+  .aboutName {
+    font-size: 34px;
+
+    margin-left: 165px;
+  }
+}
+@media (max-width: 992px) {
+  .offerWrapperLine {
+    height: 966px;
+  }
+  .aboutName {
+    padding-top: 49px;
+    margin-left: 220px;
+  }
+
+  .homeParagraph {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .offerWrapper {
+    height: 700px;
+    background-size: 66%;
+  }
+  .offerWrapperLine {
+    height: 966px;
+    background-size: 60%;
+  }
+  .aboutName {
+    padding-top: 49px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .offerWrapperLineTwo {
+    background-position: 42% 63%;
+  }
+
+  .homeParagraph {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .offerWrapper {
+    background-image: none;
+    background-color: #23242a;
+  }
+}
+@media (max-width: 768px) {
+  .aboutName {
+    justify-content: center;
+    padding-top: -94px;
+    margin-top: -86px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .homeParagraph {
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: 54px;
+    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+    justify-content: center;
+    text-align: justify;
+    margin: 0px auto;
+  }
+  .offerWrapperLine {
+    background-color: #23242a;
+    background-image: url("../../assets/images/line_2.png");
+    margin-top: 70px;
+  }
+  .offerWrapperLineTwo {
+    background-color: #23242a;
+    background-image: none;
+  }
+  .offerWrapperLineTwo {
+    background-color: #23242a;
+    background-image: none;
+    display: grid;
+  }
+  .offerWrapper {
+    background-image: none;
+    height: 1000px;
+  }
+}
+@media (max-width: 414px) {
+  .homeParagraph {
+    width: 275px;
+    padding-top: 14px;
+  }
+  .offerWrapper {
+    height: 781px;
+  }
+}
+
+@media (max-width: 375px) {
+  .homeParagraph {
+    width: 275px;
+    padding-top: 14px;
+  }
+  .offerWrapper {
+    height: 781px;
+  }
+}

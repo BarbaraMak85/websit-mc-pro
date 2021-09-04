@@ -1,0 +1,52 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slick-prev:before,
+.slick-next:before {
+  color: #a6263e;
+  font-size: 38px;
+}
+.slick-prev {
+  left: -48px;
+}
+.slick-dots li button:before {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.slick-dots li.slick-active button:before {
+  color: #a6263e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+@media (max-width: 992px) {
+  .slick-next {
+    right: -8px;
+  }
+  .slick-prev {
+    left: -25px;
+  }
+}
+@media (max-width: 4145px) {
+  .slick-next {
+    right: 4px;
+  }
+  .slick-prev {
+    left: -13px;
+  }
+}
+@media (max-width: 375px) {
+  .slick-next {
+    right: -3px;
+  }
+  .slick-prev {
+    left: -22px;
+  }
+}

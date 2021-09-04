@@ -1,0 +1,553 @@
+.wrapperAbout {
+  display: grid;
+  height: 650px;
+}
+
+.aboutImage {
+  height: 814px;
+  background-image: url("../../assets/images/patrycjagrabarska.png");
+  margin-top: -180px;
+  background-repeat: no-repeat;
+}
+.aboutContent {
+  display: grid;
+  grid-template-columns: 39% 22%;
+  justify-content: center;
+}
+.aboutText {
+  margin-top: -60px;
+}
+.aboutName {
+  font-family: "Gelasio", serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #a6263e;
+}
+.aboutSurname {
+  font-family: "Gelasio", serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #a6263e;
+  margin-left: 80px;
+}
+.aboutImageLine {
+  height: 683px;
+  display: grid;
+  background-image: url("../../assets/images/line_4.png");
+  background-repeat: no-repeat;
+  margin-top: -542px;
+  width: 100%;
+  background-position: 101% -2%;
+}
+.aboutParagraph {
+  font-family: "Montserrat", serif;
+  letter-spacing: -0.015em;
+  font-weight: normal;
+  font-size: 16px;
+  color: #23242a;
+  line-height: 25px;
+}
+@media (max-width: 1920px) {
+  .aboutImageLine {
+    margin-top: -467px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1892px) {
+  .aboutImageLine {
+    margin-top: -471px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1897px) {
+  .aboutImageLine {
+    margin-top: -470px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1854px) {
+  .aboutImageLine {
+    margin-top: -481px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1864px) {
+  .aboutImageLine {
+    margin-top: -477px;
+  }
+}
+@media (max-width: 1880px) {
+  .aboutImageLine {
+    margin-top: -474px;
+  }
+}
+@media (max-width: 1820px) {
+  .aboutImageLine {
+    margin-top: -486px;
+  }
+}
+@media (max-width: 1876px) {
+  .aboutImageLine {
+    margin-top: -474px;
+  }
+}
+@media (max-width: 1851px) {
+  .aboutImageLine {
+    margin-top: -480px;
+  }
+}
+@media (max-width: 1843px) {
+  .aboutImageLine {
+    margin-top: -474px;
+  }
+}
+@media (max-width: 1838px) {
+  .aboutImageLine {
+    margin-top: -483px;
+  }
+}
+@media (max-width: 1778px) {
+  .aboutImageLine {
+    margin-top: -495px;
+  }
+}
+@media (max-width: 1726px) {
+  .aboutImageLine {
+    margin-top: -506px;
+  }
+}
+@media (max-width: 1826px) {
+  .aboutImageLine {
+    margin-top: -493px;
+  }
+}
+@media (max-width: 1702px) {
+  .aboutImageLine {
+    margin-top: -510px;
+  }
+}
+@media (max-width: 1684px) {
+  .aboutImageLine {
+    margin-top: -513px;
+  }
+}
+@media (max-width: 1665px) {
+  .aboutImageLine {
+    margin-top: -517px;
+  }
+}
+@media (max-width: 1614px) {
+  .aboutImageLine {
+    margin-top: -528px;
+  }
+}
+@media (max-width: 1608px) {
+  .aboutImageLine {
+    margin-top: -529px;
+  }
+}
+@media (max-width: 1603px) {
+  .aboutImageLine {
+    margin-top: -530px;
+  }
+}
+@media (max-width: 1590px) {
+  .aboutImageLine {
+    margin-top: -533px;
+  }
+}
+@media (max-width: 1560px) {
+  .aboutImageLine {
+    margin-top: -538px;
+  }
+}
+@media (max-width: 1508px) {
+  .aboutImageLine {
+    margin-top: -550px;
+  }
+}
+@media (max-width: 1510px) {
+  .aboutImageLine {
+    margin-top: -547px;
+  }
+}
+@media (max-width: 1540px) {
+  .aboutImageLine {
+    margin-top: -542px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1514px) {
+  .aboutImageLine {
+    margin-top: -574px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1503px) {
+  .aboutImageLine {
+    margin-top: -549px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1451px) {
+  .aboutImageLine {
+    margin-top: -558px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1448px) {
+  .aboutImageLine {
+    margin-top: -559px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1400px) {
+  .aboutImageLine {
+    margin-top: -568px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1307px) {
+  .aboutImageLine {
+    margin-top: -587px;
+
+    background-position: 101% 3%;
+  }
+}
+@media (max-width: 1300px) {
+  .aboutImageLine {
+    margin-top: -587px;
+
+    background-position: 101% 3%;
+  }
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1281px) {
+  .aboutImageLine {
+    margin-top: -642px;
+
+    background-position: 101% 3%;
+  }
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 40% 44%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutImageLine {
+    margin-top: -467px;
+
+    background-position: 101% 3%;
+  }
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 51% 47%;
+    justify-content: center;
+  }
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 1237px;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 75px;
+  }
+  .aboutSurname {
+    font-size: 75px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 800px;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 128px;
+  }
+
+  .aboutSurname {
+    font-size: 75px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 922px;
+    width: 100%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 75px;
+  }
+  .aboutSurname {
+    font-size: 75px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .aboutImageLine {
+    height: auto;
+
+    background-position: 101% 3%;
+  }
+  .aboutImage {
+    height: 939px;
+    background-position: 50% 50%;
+  }
+  .aboutParagraph {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 21px;
+  }
+  .aboutName {
+    font-size: 70px;
+    padding-top: 70px;
+  }
+  .aboutSurname {
+    font-size: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .aboutParagraph {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 21px;
+  }
+  .aboutName {
+    padding-top: 0px;
+    padding-top: 44px;
+  }
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 900px;
+    background-position: 50% 50%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding: 0;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 75px;
+  }
+  .aboutSurname {
+    font-size: 75px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .aboutParagraph {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 21px;
+    font-size: 14px;
+
+    width: 85%;
+    text-align: justify;
+  }
+
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    margin: 0;
+    width: 100%;
+    margin-top: -51px;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 900px;
+    background-position: 50% 50%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding: 0;
+    margin-top: -137px;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 58px;
+  }
+  .aboutSurname {
+    font-size: 58px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 18px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  .aboutParagraph {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 21px;
+    font-size: 14px;
+
+    width: 85%;
+    text-align: justify;
+  }
+
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    margin: 0;
+    width: 100%;
+    margin-top: -51px;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    margin-top: -86px;
+    background-size: 100%;
+    height: 900px;
+    background-position: 50% 50%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding: 0;
+    margin-top: -137px;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 58px;
+  }
+  .aboutSurname {
+    font-size: 58px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 18px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
