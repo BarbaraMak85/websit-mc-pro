@@ -65,42 +65,22 @@
     margin-left: 4px;
   }
 }
+
 @media (max-width: 768px) {
   .navigationList__wrapper {
     position: absolute;
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
+    z-index: 2;
   }
-  .hamburgerMenu {
-    visibility: visible;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    z-index: 999999999999;
-    top: 480%;
-    left: 4%;
-    cursor: pointer;
-  }
-}
-@media (max-width: 768px) {
   .navigationWrapper {
     background-color: transparent;
     z-index: 2;
-  }
-  .navigationList__wrapper {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    display: block;
-    background: #a6263e;
-    top: 0;
-    left: -110%;
-    transition: all 0.5s;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -113,11 +93,17 @@
     cursor: pointer;
   }
   .imgNavbar {
-    margin-left: 483px;
+    margin-left: 419px;
   }
   .navigationList__wrapper {
-    left: 0px;
-    /* color: rgb(245 222 179); */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
@@ -147,7 +133,7 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
@@ -167,24 +153,10 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
-  }
-  .hamburgerMenu {
-    visibility: visible;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    z-index: 999999999999;
-    top: 480%;
-    left: 4%;
-    cursor: pointer;
-  }
-  .navigationList__wrapper {
-    left: 0px;
-    /* color: rgb(245 222 179); */
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
@@ -193,6 +165,7 @@
     padding-top: 50px;
     height: 734px;
   }
+
   .naviagtionList__element {
     color: #fff;
     font-size: 50px;
@@ -202,6 +175,9 @@
   }
   .navbarList {
     padding-top: 10px;
+  }
+  .imgNavbar {
+    margin-left: 365px;
   }
 }
 @media (max-width: 560px) {
@@ -214,7 +190,7 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
@@ -237,7 +213,7 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
@@ -254,7 +230,67 @@
   }
   .navigationList__wrapper {
     left: 0px;
-    /* color: rgb(245 222 179); */
+    background-color: #a6263e;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: max-content;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 734px;
+  }
+  .naviagtionList__element {
+    color: #fff;
+    font-size: 50px;
+    justify-content: center;
+    font-family: "Gelasio", serif;
+    font-weight: bold;
+  }
+  .navbarList {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .navigationWrapper {
+    background-color: transparent;
+    z-index: 2;
+  }
+  .navigationList__wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
+  }
+  .hamburgerMenu {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999999999999;
+    top: 33%;
+    left: 4%;
+    cursor: pointer;
+  }
+  .imgNavbar {
+    margin-left: 260px;
+  }
+
+  .hamburgerMenu {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999999999999;
+    top: 33%;
+    left: 4%;
+    cursor: pointer;
+  }
+  .navigationList__wrapper {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
@@ -285,7 +321,7 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
@@ -308,7 +344,7 @@
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
@@ -325,7 +361,7 @@
   }
   .navigationList__wrapper {
     left: 0px;
-    /* color: rgb(245 222 179); */
+    background-color: #a6263e;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
@@ -347,22 +383,20 @@
 }
 
 @media (max-width: 424px) {
-  .imgNavbar {
-    position: absolute;
-    top: 0;
-    right: 5%;
-    width: 120px;
-    padding-left: 0;
-  }
   .navigationList__wrapper {
+    z-index: 2;
     position: absolute;
     width: 100vw;
     height: 100vh;
     display: block;
-    background: #a6263e;
+    background-color: #a6263e;
     top: 0;
     left: -110%;
     transition: all 0.5s;
+  }
+  .navigationWrapper {
+    background-color: transparent;
+    z-index: 2;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -370,13 +404,22 @@
     height: 50px;
     position: absolute;
     z-index: 999999999999;
-    top: 480%;
+    top: 35%;
     left: 4%;
     cursor: pointer;
   }
+  .imgNavbar {
+    margin-left: 163px;
+  }
   .navigationList__wrapper {
-    left: 0px;
-    /* color: rgb(245 222 179); */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: max-content;
@@ -401,8 +444,116 @@
   left: 0;
 }
 @media (max-width: 375px) {
+  .navigationList__wrapper {
+    z-index: 2;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
+  }
+  .navigationWrapper {
+    background-color: transparent;
+    z-index: 2;
+  }
+  .hamburgerMenu {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999999999999;
+    top: 40%;
+    left: 4%;
+    cursor: pointer;
+  }
+  .imgNavbar {
+    margin-left: 120px;
+  }
+  .navigationList__wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: max-content;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 734px;
+  }
+  .naviagtionList__element {
+    color: #fff;
+    font-size: 50px;
+    justify-content: center;
+    font-family: "Gelasio", serif;
+    font-weight: bold;
+  }
   .navbarList {
-    padding-left: 45px;
-    padding-top: 33px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .navigationList__wrapper {
+    z-index: 2;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
+  }
+  .navigationWrapper {
+    background-color: transparent;
+    z-index: 2;
+  }
+  .hamburgerMenu {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999999999999;
+    top: 40%;
+    left: 4%;
+    cursor: pointer;
+  }
+  .imgNavbar {
+    margin-left: 120px;
+  }
+  .navigationList__wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #a6263e;
+    top: 0;
+    left: -110%;
+    transition: all 0.5s;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: max-content;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 734px;
+  }
+  .naviagtionList__element {
+    color: #fff;
+    font-size: 50px;
+    justify-content: center;
+    font-family: "Gelasio", serif;
+    font-weight: bold;
+  }
+  .navbarList {
+    padding-top: 10px;
   }
 }

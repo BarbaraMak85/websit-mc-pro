@@ -14,6 +14,8 @@ const Navbar = () => {
 
   const switchResponsiveMenu = (e) => {
     if (menuVisible) {
+      navRef.current.style.background = "#a6263e";
+      // navRef.current.style.visibility = "visible";
       navRef.current.style.left = "-110%";
     } else {
       navRef.current.style.left = 0;

@@ -168,7 +168,7 @@
   }
   .home_content {
     width: 52%;
-    padding-top: 645px;
+    padding-top: 598px;
     margin-left: 0px;
 
     padding-left: 25px;
@@ -205,7 +205,7 @@
     // z-index: 200;
   }
   .home_content {
-    padding-top: 645px;
+    padding-top: 598px;
     margin-left: 0px;
     display: grid;
     justify-content: center;
@@ -226,5 +226,17 @@
     margin-top: 9px;
     margin-bottom: 97px;
     text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .home_container {
+    background-position: 100% 12%;
+  }
+  .home_content {
+    padding-top: 581px;
+  }
+  .homeParagraph {
+    margin-top: -23px;
+    margin-bottom: 12px;
   }
 }
