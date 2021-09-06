@@ -87,3 +87,17 @@
     height: 400px;
   }
 }
+@media (max-width: 375px) {
+  .boxList {
+    width: 193px;
+    height: 366px;
+  }
+  .boxParagraphTitle {
+    font-size: 12px;
+  }
+  .boxParagraphContent {
+    font-size: 10px;
+    padding-left: 19px;
+    padding-right: 21px;
+  }
+}

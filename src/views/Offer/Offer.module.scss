@@ -120,6 +120,16 @@
     background-position: 0% 66%;
   }
 }
+
+@media (max-width: 1366px) {
+  .aboutName {
+    padding-top: 100px;
+    margin-left: 135px;
+  }
+  .homeParagraph {
+    margin-left: 135px;
+  }
+}
 @media (max-width: 1300px) {
   .offerWrapperLine {
     height: 1054px;
@@ -153,6 +163,9 @@
   .homeParagraph {
     margin-bottom: 50px;
   }
+  .offerWrapperLineTwo {
+    background-size: 105%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -171,6 +184,7 @@
   }
   .offerWrapperLineTwo {
     background-position: 42% 63%;
+    background-size: 105%;
   }
 
   .homeParagraph {

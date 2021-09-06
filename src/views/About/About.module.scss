@@ -217,6 +217,13 @@
     background-position: 101% 3%;
   }
 }
+@media (max-width: 1366px) {
+  .aboutImageLine {
+    margin-top: -536px;
+    background-position: 119% -11%;
+  }
+}
+
 @media (max-width: 1307px) {
   .aboutImageLine {
     margin-top: -587px;
@@ -541,6 +548,57 @@
   }
   .aboutSurname {
     font-size: 58px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .aboutParagraph {
+    font-size: 18px;
+    line-height: 38px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 280px) {
+  .aboutParagraph {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 21px;
+    font-size: 14px;
+
+    width: 85%;
+    text-align: justify;
+  }
+
+  .aboutImageLine {
+    background-image: none;
+    height: auto;
+  }
+  .wrapperAbout {
+    height: auto;
+  }
+  .aboutContent {
+    margin: 0;
+    width: 100%;
+    margin-top: -51px;
+  }
+  .aboutImage {
+    margin-top: 0px;
+    width: 100%;
+    background-size: 100%;
+    height: 896px;
+    background-position: 50% 50%;
+  }
+  .aboutText {
+    text-align: -webkit-center;
+    padding: 0;
+    margin-top: -212px;
+  }
+  .aboutName {
+    text-align: center;
+    font-size: 40px;
+  }
+  .aboutSurname {
+    font-size: 40px;
     text-align: center;
     margin-left: 0px;
   }

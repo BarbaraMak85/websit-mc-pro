@@ -60,6 +60,12 @@
 
   color: #a6263e;
 }
+
+@media (max-width: 1366px) {
+  .home_container {
+    background-size: 50%;
+  }
+}
 @media (max-width: 1024px) {
   .home_image {
     width: 100vw;
@@ -77,6 +83,29 @@
     background-position: 113% 8%;
     height: 68vh;
     background-size: 67%;
+  }
+}
+@media (max-width: 922px) {
+  .home_image {
+    width: 100vw;
+    background-image: url("../../assets/images/ZdjGł_MCpro.png");
+    background-origin: content-box;
+    background-size: 207%;
+    background-position: 65% 0%;
+    background-repeat: no-repeat;
+    height: 920px;
+    position: absolute;
+    background-position: -57% -11%;
+    background-size: 126%;
+  }
+  .home_container {
+    background-position: 113% 8%;
+    height: 1200px;
+    background-size: 67%;
+  }
+  .home_content {
+    width: 75%;
+    padding-top: 760px;
   }
 }
 @media (max-width: 768px) {
@@ -238,5 +267,26 @@
   .homeParagraph {
     margin-top: -23px;
     margin-bottom: 12px;
+  }
+}
+@media (max-width: 280px) {
+  .home_container {
+    background-position: 100% 12%;
+    height: 169vh;
+  }
+  .home_content {
+    padding-top: 581px;
+  }
+  .homeParagraph {
+    width: 64%;
+    margin-left: 139px;
+  }
+
+  .homeParagraphContact {
+    width: 40%;
+    text-align: center;
+    width: 37%;
+    text-align: center;
+    margin-left: 190px;
   }
 }
