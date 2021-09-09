@@ -5,7 +5,6 @@ import About from "../../views/About/About";
 import Contact from "../../views/Contact/Contact";
 import Navbar from "../../components/navigations/Navbar/Navbar";
 import Home from "../../views/Home/Home";
-import styles from "./MainPages.module.scss";
 import ImginesSlider from "../../components/Slider/Slider";
 
 class MainPage extends Component {
