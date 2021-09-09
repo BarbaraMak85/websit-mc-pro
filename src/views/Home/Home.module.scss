@@ -61,6 +61,11 @@
   color: #a6263e;
 }
 
+@media (max-width: 1440px) {
+  .home_container {
+    height: 154vh;
+  }
+}
 @media (max-width: 1366px) {
   .home_container {
     background-size: 50%;
@@ -83,6 +88,9 @@
     background-position: 113% 8%;
     height: 68vh;
     background-size: 67%;
+  }
+  .home_content {
+    margin-left: -14px;
   }
 }
 @media (max-width: 922px) {
@@ -148,6 +156,13 @@
     height: 1329px;
   }
 }
+
+@media (max-width: 575px) {
+  .home_container {
+    height: 1486px;
+  }
+}
+
 @media (max-width: 540px) {
   .home_image {
     width: 100vw;
@@ -267,6 +282,14 @@
   .homeParagraph {
     margin-top: -23px;
     margin-bottom: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .home_container {
+    height: 201vh;
+  }
+  .home_content {
+    padding-left: 0px;
   }
 }
 @media (max-width: 280px) {

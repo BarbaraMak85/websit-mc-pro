@@ -81,8 +81,9 @@
     z-index: 2;
   }
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -127,8 +128,9 @@
 }
 @media (max-width: 625px) {
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .navigationList__wrapper {
     position: absolute;
@@ -182,10 +184,12 @@
     margin-left: 365px;
   }
 }
+
 @media (max-width: 560px) {
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .navigationList__wrapper {
     position: absolute;
@@ -255,8 +259,9 @@
 
 @media (max-width: 540px) {
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .navigationList__wrapper {
     position: absolute;
@@ -315,8 +320,9 @@
 
 @media (max-width: 525px) {
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .navigationList__wrapper {
     position: absolute;
@@ -397,8 +403,9 @@
     transition: all 0.5s;
   }
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -458,8 +465,9 @@
     transition: all 0.5s;
   }
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -515,8 +523,9 @@
     transition: all 0.5s;
   }
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .hamburgerMenu {
     visibility: visible;
@@ -559,7 +568,16 @@
     padding-top: 10px;
   }
 }
-
+@media (max-width: 320px) {
+  .imgNavbar {
+    margin-left: 91px;
+    margin-top: 15px;
+  }
+  .navbarList {
+    padding-top: 18px;
+    margin-left: 40px;
+  }
+}
 @media (max-width: 280px) {
   .imgNavbar {
     margin-left: 56px;
@@ -580,8 +598,9 @@
     transition: all 0.5s;
   }
   .navigationWrapper {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 2;
+    opacity: 0.9;
   }
   .hamburgerMenu {
     visibility: visible;

@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className={styles.contactTitle}>Napisz do mnie!</h1>
       <div className={styles.wrapperContactContent}>
         <div className={styles.wrapperContactEmail}>
-          <p className={styles.contactEmail}>patrycja.grabarska@gmail.com</p>
+          <p className={styles.contactEmail}>kontakt@mcpro.agency</p>
         </div>
 
         <p className={styles.wrapperContactData}>MC PRO PATRYCJA GRABARSKA</p>
