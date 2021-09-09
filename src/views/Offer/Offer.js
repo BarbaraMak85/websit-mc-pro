@@ -4,7 +4,6 @@ import styles from "./Offer.module.scss";
 import Box from "../../components/Box/Box";
 import { offerDetailsData } from "../../data/offerDetailsData";
 import Slider from "react-slick";
-// import sliderStyles from "../../components/Slider/Slider.module.scss";
 
 const Offer = () => {
   const settings = {
