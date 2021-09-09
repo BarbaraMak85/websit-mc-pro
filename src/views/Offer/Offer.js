@@ -1,8 +1,6 @@
 import React from "react";
 
 import styles from "./Offer.module.scss";
-import LineOne from "../../assets/images/line_2.png";
-import LineTwo from "../../assets/images/line_3.png";
 import Box from "../../components/Box/Box";
 import { offerDetailsData } from "../../data/offerDetailsData";
 import Slider from "react-slick";

@@ -15,7 +15,7 @@ const CookieInfo = () => {
     return localStorageCookie;
   };
 
-  const [cookies, setCookies] = useCookies(["user"]);
+  const [setCookies] = useCookies(["user"]);
   const [cookieAccepted, setCookieAccepted] = useState(
     getCookieFromLocalStorage()
   );
