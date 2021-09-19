@@ -15,7 +15,7 @@ const CookieInfo = () => {
     return localStorageCookie;
   };
 
-  const [setCookies] = useCookies(["user"]);
+  const [cookies, setCookies] = useCookies(["user"]);
   const [cookieAccepted, setCookieAccepted] = useState(
     getCookieFromLocalStorage()
   );
@@ -46,7 +46,7 @@ const CookieInfo = () => {
             celach funkcjonalnych. Dzięki nim możemy indywidualnie dostosować
             stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo
             ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą
-            zbierane żadne informacje
+            zbierane żadne informacje.
           </p>
           <button className={styles.accept__btn} onClick={handleCookie}>
             Akceptuje cookies
@@ -56,5 +56,6 @@ const CookieInfo = () => {
     </>
   );
 };
+
 
 export default CookieInfo;
