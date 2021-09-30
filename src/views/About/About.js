@@ -16,12 +16,12 @@ const About = () => {
             im. Stanisława Wyspiańskiego w Katowicach). Największe doświadczenie
             zdobyłam w agencjach marketingowych. Pracowałam m.in. w Linkhouse
             oraz ORION MEDIA GROUP, gdzie odpowiadałam za współpracę z wydawcami
-            internetowymi - zarówno lokalnymi, branżowymi jak i największymi
+            internetowymi - zarówno lokalnymi, branżowymi, jak i największymi
             grupami mediowymi w Polsce. Byłam również kierowniczką działu
             content marketingu w WUNDERTEAM, w którym prowadziłam projekty dla
             klientów. Dodatkowo współorganizowałam Czwartkowe Spotkania Social
             Media w Katowicach. Teraz działam tutaj - w miejscu stworzonym
-            przeze mnie
+            przeze mnie.
           </p>
         </div>
       </div>

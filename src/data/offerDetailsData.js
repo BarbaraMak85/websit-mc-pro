@@ -1,8 +1,8 @@
 export const offerDetailsData = [
   {
-    titleOffer: "Planowanie działań mediowych",
+    titleOffer: "Planowanie działań w mediach internetowych",
     contentOffer:
-      " Zaplanujemy i zrealizujemy każdą kampanię mediową w przestrzeni internetowej - niezależnie, czy potrzebujesz wyłącznie planu publikacji, czy też działań niestandardowych, wymagających nieszablonowego podejścia.",
+      " Zaplanujemy i zrealizujemy każdą kampanię w przestrzeni mediów internetowych - niezależnie, czy potrzebujesz wyłącznie planu publikacji, czy też działań niestandardowych, wymagających nieszablonowego podejścia.",
   },
   {
     titleOffer: "Tworzenie contentu marketingowego",

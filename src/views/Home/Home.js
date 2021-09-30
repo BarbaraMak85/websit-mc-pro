@@ -13,7 +13,7 @@ function Home() {
         <p className={styles.homeParagraph}>
           MC pro to firma specjalizująca się w prowadzeniu projektów
           marketingowych w obszarze mediów internetowych oraz content
-          marketingu. Planujemy działania mediowe, budujemy relacje, usprawniamy
+          marketingu. Planujemy działania w mediach, budujemy relacje, usprawniamy
           komunikację oraz tworzymy content.
         </p>
 
